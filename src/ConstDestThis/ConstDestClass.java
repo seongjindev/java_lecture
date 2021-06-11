@@ -2,8 +2,8 @@ package ConstDestThis;
 
 public class ConstDestClass {
 
-    public int x; //클래스 변수, 전역변수
-    public int y; //클래스 변수, 전역변수
+    public int x; //인스턴스 변수, 전역변수
+    public int y; //인스턴스 변수, 전역변수
 
     public ConstDestClass() { //생성자, 생성자는 반환형이 필요없다, 생성자를 만들지 않아도 컴파일 시점에 자동으로 생성된다
         System.out.println("--ConstDestClass--");

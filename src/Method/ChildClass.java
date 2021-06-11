@@ -1,9 +1,9 @@
 package Method;
 
 public class ChildClass {
-    public String name; //클래스 변수
-    public String gender; //클래스 변수
-    public int age; //클래스 변수
+    public String name; //인스턴스 변수
+    public String gender; //인스턴스 변수
+    public int age; //인스턴스 변수
 
     public ChildClass(){ //생성자는 반환형이 없음
         System.out.println("--ChildClass--");
