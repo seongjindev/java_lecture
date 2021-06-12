@@ -30,9 +30,17 @@ class SecondChiClass extends ParClass {
     }
 }
 class CChiClass extends FirstChiClass {
+    int year = 2030;
     @Override
     public void makeComputer() {
         super.makeComputer();
+    }
+
+    @Override
+    public void showYear(){
+        System.out.println("this.year = "+this.year);
+        System.out.println("super.year = "+super.year);
+
     }
 }
 
