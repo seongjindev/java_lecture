@@ -60,6 +60,8 @@ public class InheritancePointEx {
         for(int i = 0;i<pc2.length;i++){
             pc2[i].makeComputer();
         }
+        ParClass aa = new FirstChiClass();
+        aa.makeComputer();
 
     }
 }
