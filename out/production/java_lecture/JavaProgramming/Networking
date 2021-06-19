@@ -1,0 +1,19 @@
+네트워킹
+네트워크에 연결되어 있는 대상 사이에 데이터를 전송하는 방법에 대해서 살펴봅니다
+
+네트워크 데이터 입력 및 출력
+네트워크 대상(객체) 사이에 입출력(InputStream, OutputStream)를 이용해서 데이터를 입력하고 출력한다
+
+소켓(Socket)
+네트워크상에서 데이터를 주고받기 위한 장치이다 예)전화기와비슷 - 장치 기계
+
+Socket 클래스
+서버는 클라이언트를 맞을 준비를 하고 있다가 클라이언트의 요청에 반응한다
+클라이언트 Socket -> Server Socket 서버
+
+Client와 Server 소켓(Socket)
+서버에 ServerSocket를 준비하고 클라이언트에서 Socket를 이용해서 접속한다
+
+양방향 통신
+클라이언트와 서버는 InputStream, OutputStream 을 이용해서 양방향 통신을 할 수 있다
+
